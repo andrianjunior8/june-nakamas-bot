@@ -1,0 +1,30 @@
+{
+  "name": "discord-welcome-bot",
+  "version": "1.0.0",
+  "description": "Discord bot untuk welcome message dan auto-role",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "welcome",
+    "discord.js"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "type": "commonjs"
+}
